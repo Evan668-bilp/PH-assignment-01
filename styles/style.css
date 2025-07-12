@@ -10,9 +10,11 @@ body {
 
 .hero-section {
   height: 100vh;
-  background-image: url('Hero-bg.png');  /* ✅ Your background image */
-  background-size: cover;                /* Makes it cover the full section */
-  background-position: center;           /* Keeps it centered */
+  background-image: url('Hero-bg.png');  
+  
+background-image: image(url(../Assets/Hero-bg.png));
+  background-size: cover;                
+  background-position: center;           
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
